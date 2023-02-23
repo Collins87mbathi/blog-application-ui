@@ -1,0 +1,74 @@
+.saved {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 30px;
+}
+
+.delete-save {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.saved-nav {
+    .arrow {
+        font-size: 1.6rem;
+        cursor: pointer;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+.save-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.save-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+    .save-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 1.2rem;
+    }
+    
+    .save-details {
+        h3 {
+          font-size: 1.5rem;
+        }
+        h5 {
+          color: grey;
+        }
+        p {
+            color: grey;
+        }
+      }
+
+    @media screen and (min-width: 768px) {
+        .save-img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .delete-save {
+          font-size: 1.8rem;
+        }
+        
+        .save-details {
+          h3 {
+            font-size: 1.5rem;
+          }
+          h5 {
+            font-size: 1.5rem;
+          }
+          p {
+            font-size: 1.5rem;
+          }
+        }
+    }
