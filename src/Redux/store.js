@@ -9,7 +9,7 @@ import {
     PURGE,
     REGISTER,
   } from "redux-persist";
-  import thunk from 'redux-thunk';
+  // import thunk from 'redux-thunk';
   import storage from "redux-persist/lib/storage";
   
  import userReducer from "../Redux/Slices/userSlice";
